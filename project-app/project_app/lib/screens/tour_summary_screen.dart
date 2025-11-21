@@ -1,10 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:project_app/blocs/blocs.dart';
 import 'package:project_app/helpers/helpers.dart'; // Importar el archivo de helpers
 import 'package:project_app/ui/ui.dart';
 import 'package:project_app/widgets/widgets.dart';
-import 'package:project_app/blocs/blocs.dart';
+
 
 /// Pantalla que muestra un resumen del **Eco City Tour** actual.
 ///
