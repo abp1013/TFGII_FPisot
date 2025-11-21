@@ -140,7 +140,8 @@
                 <mxCell id="58" value="+ onClearMap (event, emit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17" vertex="1">
                     <mxGeometry y="268" width="239" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="+ close()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17" vertex="1">
+                <mxCell id="59" value="+ handleGpsRedirection()
++ close()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17" vertex="1">
                     <mxGeometry y="294" width="239" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="161" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" parent="136" source="55" target="154" edge="1">
@@ -171,7 +172,7 @@
                 <mxCell id="166" value="+ isPermissionGranted() :Future&lt;bool&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="162" vertex="1">
                     <mxGeometry y="86" width="182.40465793304222" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="+ checkGpsStatus() : Future &lt;bool&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="162" vertex="1">
+                <mxCell id="167" value="+ checkGpsStatusAndRedirect() : Future &lt;bool&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="162" vertex="1">
                     <mxGeometry y="112" width="182.40465793304222" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="168" value="+ askGpsAccess(): Future&lt;bool&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="162" vertex="1">
