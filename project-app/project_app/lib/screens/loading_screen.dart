@@ -21,9 +21,8 @@ class LoadingScreen extends StatelessWidget {
           context.go(
               '/tour-selection'); // Navega a la pantalla de selección de tours
         } else {
-          // Si no están listos, redirige a la pantalla de acceso al GPS.
-          context.go('/gps-access'); // Navega a la pantalla de acceso al GPS
-        }
+          context.go('/gps-access'); 
+          // Linea adicioanl Forzar error
       },
       child: const Scaffold(
         body: Center(
