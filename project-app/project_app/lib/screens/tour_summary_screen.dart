@@ -14,6 +14,7 @@ import 'package:project_app/blocs/blocs.dart';
 class TourSummaryScreen extends StatelessWidget {
   const TourSummaryScreen({super.key});
 
+  //Comentario para que salga Error
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;

@@ -160,6 +160,8 @@ El \acrshort{bloc} actúa como el Sujeto del patrón Observador, gestionando el 
 	isGpsEnabled &&
 	isGpsPermissionGranted;
 \end{lstlisting}
+
+
 Los widgets que dependen de esta información, como los mapas o botones de la interfaz de usuario, actúan como Observadores. Cada vez que el estado del \acrshort{bloc} cambia, estos widgets son notificados y se actualizan automáticamente, permitiendo que la interfaz reaccione en tiempo real a los cambios en el estado del GPS o los permisos.
 Cada vez que el estado del GPS o de los permisos cambia, se dispara un evento \textit{OnGpsAndPermissionEvent}, que actualiza el estado y notifica a los widgets correspondientes. Esto permite que la interfaz de usuario reaccione dinámicamente y muestre la información correcta según el estado actual.
 
